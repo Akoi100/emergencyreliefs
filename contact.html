@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | ERS Limited</title>
+    <meta name="description"
+        content="Get in touch with ERS Limited for your logistics and relief supply needs. Offices in Nairobi and Mombasa.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header></header>
+
+    <section class="section" style="background-color: var(--bg-light); padding: 40px 0;">
+        <div class="container">
+            <h1 style="text-align: center;">Contact Us</h1>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px;">
+
+                <!-- Contact Info -->
+                <div>
+                    <h2 style="color: var(--primary-green);">Get in Touch</h2>
+                    <p style="margin-bottom: 30px;">We are available 24/7 for emergency relief inquiries. Reach out to
+                        us via phone, email, or visit our offices.</p>
+
+                    <div style="margin-bottom: 20px;">
+                        <h4 style="margin-bottom: 5px;">Head Office (Nairobi)</h4>
+                        <p>123 Logistics Way, Industrial Area<br>P.O. Box 12345 - 00100, Nairobi, Kenya</p>
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <h4 style="margin-bottom: 5px;">Mombasa Branch</h4>
+                        <p>456 Port Road, Kilindini<br>Mombasa, Kenya</p>
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <h4 style="margin-bottom: 5px;">Contact Details</h4>
+                        <p><strong>Phone:</strong> +254 700 000 000 / +254 722 000 000</p>
+                        <p><strong>Email:</strong> info@ers.co.ke</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: var(--shadow);">
+                    <h3>Send us a Message</h3>
+                    <form id="contactForm"
+                        onsubmit="event.preventDefault(); alert('Thank you for your message. We will get back to you shortly.');">
+                        <div style="margin-bottom: 20px;">
+                            <label for="name" style="display: block; margin-bottom: 5px; font-weight: 600;">Full
+                                Name</label>
+                            <input type="text" id="name" required
+                                style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label for="email" style="display: block; margin-bottom: 5px; font-weight: 600;">Email
+                                Address</label>
+                            <input type="email" id="email" required
+                                style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label for="subject"
+                                style="display: block; margin-bottom: 5px; font-weight: 600;">Subject</label>
+                            <input type="text" id="subject" required
+                                style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;">
+                        </div>
+                        <div style="margin-bottom: 20px;">
+                            <label for="message"
+                                style="display: block; margin-bottom: 5px; font-weight: 600;">Message</label>
+                            <textarea id="message" rows="5" required
+                                style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">Send
+                            Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section" style="padding: 0;">
+        <div
+            style="width: 100%; height: 400px; background-color: #eee; display: flex; align-items: center; justify-content: center; color: #888;">
+            <!-- Placeholder for Google Map Embed -->
+            <p>Google Map Embed Would Go Here</p>
+        </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
