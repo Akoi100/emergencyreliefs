@@ -2,9 +2,8 @@
 const headerHTML = `
 <div class="container nav-container">
     <a href="index.html" class="logo">
-        <!-- Placeholder for Logo Image -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M8 11h8"/><path d="M12 7v8"/></svg>
-        ERS Limited
+        <img src="logo.PNG" alt="ERS Logo" style="height: 50px; width: auto;">
+        <span style="font-size: 1.2rem; line-height: 1.2;">EMERGENCY RELIEF<br>SUPPLIES LIMITED</span>
     </a>
     <div class="mobile-menu-btn" onclick="toggleMenu()">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -27,7 +26,7 @@ const footerHTML = `
     <div class="footer-content">
         <div class="footer-col">
             <h3>ERS Limited</h3>
-            <p>Providing top-notch logistics and humanitarian relief supplies across Kenya and beyond.</p>
+            <p>Providing top-notch logistics in clearing and forwarding services across Kenya and beyond</p>
         </div>
         <div class="footer-col">
             <h3>Quick Links</h3>
@@ -40,11 +39,13 @@ const footerHTML = `
         </div>
         <div class="footer-col">
             <h3>Contact Info</h3>
-            <ul class="footer-links">
-                <li>Nairobi, Kenya</li>
-                <li>info@ers.co.ke</li>
-                <li>+254 700 000 000</li>
-            </ul>
+            <p><strong>P.O.BOX 770 – 00600, NAIROBI.</strong> <a href="https://maps.app.goo.gl/3FUUVErYU2rzSse78?g_st=iw" target="_blank" class="map-link" title="View on Map">📍</a></p>
+            <p style="margin-top: 10px;"><strong>Email:</strong><br>
+            info@emergencyreliefs.com<br>
+            cw@emergencyreliefs.com<br>
+            j.okeyo@emergencyreliefs.com</p>
+            <p style="margin-top: 10px;"><strong>TELEPHONE:</strong><br>
+            0722 873 462 / 0721 980 457</p>
         </div>
     </div>
     <div class="copyright">

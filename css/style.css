@@ -24,7 +24,12 @@ body {
     background-color: var(--bg-white);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: var(--primary-green);
@@ -125,7 +130,8 @@ header {
     color: var(--text-dark);
 }
 
-.nav-links a:hover, .nav-links a.active {
+.nav-links a:hover,
+.nav-links a.active {
     color: var(--primary-green);
 }
 
@@ -165,7 +171,7 @@ footer {
 .copyright {
     text-align: center;
     padding-top: 20px;
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 0.9rem;
 }
 
@@ -191,8 +197,38 @@ footer {
     .mobile-menu-btn {
         display: block;
     }
-    
+
     .section-title {
         font-size: 2rem;
     }
+}
+
+/* Map Link Animation */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.map-link {
+    animation: blink 1.5s infinite;
+    color: var(--secondary-green);
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.map-link:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
 }
