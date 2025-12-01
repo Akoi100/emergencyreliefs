@@ -45,7 +45,8 @@ const footerHTML = `
             cw@emergencyreliefs.com<br>
             j.okeyo@emergencyreliefs.com</p>
             <p style="margin-top: 10px;"><strong>TELEPHONE:</strong><br>
-            0722 873 462 / 0721 980 457</p>
+            0721 980 457 / 0722 873 462<br>
+            Director: Clifford Wahonya</p>
         </div>
     </div>
     <div class="copyright">
